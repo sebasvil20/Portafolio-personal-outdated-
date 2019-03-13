@@ -84,7 +84,7 @@ header{
   margin-left:120px;
 }
 .element{
-
+  color: white;
   transition: font-size 1s, background-color 1s,height 1s;
   text-align: center;
   height: 15px;

@@ -81,10 +81,10 @@ header{
 
 }
 #n1{
-  margin-left:130px;
+  margin-left:120px;
 }
 .element{
-  padding: 20px;
+
   transition: font-size 1s, background-color 1s,height 1s;
   text-align: center;
   height: 15px;

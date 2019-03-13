@@ -108,3 +108,9 @@ h1,h4,h5{
   color: white;
   background-color: black;
 }
+
+ #img1{
+  border-radius: 50%;
+  margin-left: 270px; 
+ }
+

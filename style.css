@@ -1,0 +1,110 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.parallax {
+    width: 99vw;
+    height:100vh;
+    padding-top:20vh;
+    box-sizing: border-box;
+}
+.parallax::before {
+    content:"";
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    left:0;
+    background-image: url("3.jpg");
+    position: absolute;
+    z-index: -1;
+}
+.regular {
+    width: 100vw;
+    height:60vh;
+    padding-top:20vh;
+    background-image: url("1.jpg");
+}
+.contenido {
+    margin: 0 auto;
+    padding: 50px;
+    width: 50%;
+
+}
+#con1{
+  background: #ffffff;
+}
+#con2{
+  background: #000000;
+  color: white;
+}
+html {
+    overflow: hidden;
+}
+body {
+    height: 100vh;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+.parallax{
+    transform-style: preserve-3d;
+}
+.parallax::before {
+    transform:translateZ(-1px) scale(2);
+}
+.parallax::before {
+    z-index: -1;
+}
+.regular {
+    z-index: 2;
+    position: relative;
+}
+header{
+  width: 100%;
+  height: 75px;
+  background-color: rgb(60, 59, 69);
+  position: relative;
+  z-index: 100;
+}
+
+
+.aele{
+  text-decoration: none;
+  width: 200px;
+  color: black;
+  float: left ;
+  margin-left: 80px;
+  margin-right: 150px;
+  font-size: 20px;
+
+}
+#n1{
+  margin-left:139px;
+}
+.element{
+  padding: 20px;
+  transition: font-size 1s, background-color 1s,height 1s;
+  text-align: center;
+  height: 15px;
+}
+.element:hover{
+  text-decoration: none;
+  font-size: 25px;
+  background-color: white;
+  height: 75px;
+}
+h1,h4,h5{
+  text-align: center;
+}
+#hiper{
+  font-size: 12px;
+  text-decoration: underline;
+  color: black;
+  transition: color 1s, background-color 1s;
+}
+#hiper:hover{
+  color: white;
+  background-color: black;
+}

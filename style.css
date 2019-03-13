@@ -73,7 +73,7 @@ header{
 .aele{
   text-decoration: none;
   width: 200px;
-  color: white;
+  color: black;
   float: left ;
   margin-left: 80px;
   margin-right: 150px;
@@ -81,9 +81,10 @@ header{
 
 }
 #n1{
-  margin-left:120px;
+  margin-left:139px;
 }
 .element{
+  padding: 20px;
   transition: font-size 1s, background-color 1s,height 1s;
   text-align: center;
   height: 15px;
@@ -91,7 +92,7 @@ header{
 .element:hover{
   text-decoration: none;
   font-size: 25px;
-  background-color: blue;
+  background-color: white;
   height: 75px;
 }
 h1,h4,h5{
@@ -106,5 +107,4 @@ h1,h4,h5{
 #hiper:hover{
   color: white;
   background-color: black;
-  font-size: 20px;
 }

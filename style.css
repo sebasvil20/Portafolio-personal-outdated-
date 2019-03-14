@@ -157,6 +157,8 @@ h1{
  }
  #h1cool{
    margin-bottom: 40px;
+   color: white;
+   z-index: 100;
  }
 
 h2{

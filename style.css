@@ -82,6 +82,7 @@ body {
     z-index: 2;
     position: relative;
     scroll-behavior: smooth;
+    margin-top: 50px;
 }
 header{
   width: 100%;

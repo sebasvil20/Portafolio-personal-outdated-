@@ -50,7 +50,7 @@
   overflow: hidden;
   height: 90%;
   margin-top: -100px;
-  width: 70%;
+  width: 75%;
 
 }
 html {
@@ -155,4 +155,14 @@ h1{
  }
  #h1cool{
    margin-bottom: 40px;
+ }
+
+ .cert{
+   margin: 10px 45px 0px 46px;
+   float: left;
+   transition: box-shadow .5s;
+ }
+ .cert:hover{
+   box-shadow: 0px 2px 53px -11px rgba(255,255,255,1);
+   cursor: pointer;
  }

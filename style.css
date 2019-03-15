@@ -51,7 +51,7 @@
   overflow: hidden;
   height: 90%;
   margin-top: -100px;
-  width: 75%;
+  width: 78%;
 
 }
 html {
@@ -86,7 +86,7 @@ body {
 }
 header{
   width: 100%;
-  height: 75px;
+  height: 10%;
   background-color: rgb(60, 59, 69);
   position: relative;
   z-index: 100;
@@ -99,14 +99,14 @@ header{
   width: 200px;
   color: black;
   float: left ;
-  margin-left: 80px;
-  margin-right: 150px;
+  margin-left: 5%;
+  margin-right: 5%;
   font-size: 20px;
   scroll-behavior: smooth;
 
 }
 #n1{
-  margin-left:139px;
+  margin-left:19%;
   scroll-behavior: smooth;
 }
 .element{
@@ -129,7 +129,6 @@ h1,h2,h4,h5{
 }
 h1{
   font-size: 25px;
-  margin-left: 15px;
   scroll-behavior: smooth;
 }
 #hiper{
@@ -145,18 +144,19 @@ h1{
 
  #img1{
   border-radius: 50%;
-  margin-left: 270px;
+  margin-left: 40%;
   border:2px solid #666;
  }
 
  #scrolldown{
-   margin-left: 315px;
+   margin-left: 47%;
  }
  #certit{
    text-align: center;
  }
  #h1cool{
-   margin-bottom: 40px;
+   margin-top: 1%;
+   margin-bottom: 20px;
    color: white;
    z-index: 100;
  }
@@ -164,12 +164,25 @@ h1{
 h2{
   animation-name: animacion1;
   animation-duration: 3s;
+  animation-iteration-count: 3;
 }
+
  .cert{
-   margin: 10px 45px 0px 46px;
+   margin: 1%;
    float: left;
    transition: box-shadow .5s;
+   width: 20%;
+   height: 200px;
+
  }
+ #imgunica{
+   margin-left: 30%;
+ }
+ #imgunica3{
+   margin-left: 8%;
+ }
+
+
  .cert:hover{
    box-shadow: 0px 2px 53px -11px rgba(255,255,255,1);
    cursor: pointer;

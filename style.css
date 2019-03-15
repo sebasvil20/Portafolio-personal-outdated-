@@ -156,9 +156,16 @@ h1{
  }
  #h1cool{
    margin-top: 1%;
-   margin-bottom: 20px;
+   margin-bottom: 10px;
    color: white;
    z-index: 100;
+ }
+ #imgunica{
+   margin-left: 30%;
+   margin-bottom: 5%;
+ }
+ #imgunica3{
+   margin-left: 8%;
  }
 
 #h2animado{
@@ -180,12 +187,7 @@ h1{
    height: 200px;
 
  }
- #imgunica{
-   margin-left: 30%;
- }
- #imgunica3{
-   margin-left: 8%;
- }
+
 
 
  .cert:hover{

@@ -1,0 +1,25 @@
+#barnavigation{
+    font-size: 17px;
+    position: fixed;
+}
+#barnavigation a:hover{
+    color:white;
+}
+
+#footer{
+  background-color: #2a130f;
+  color: #52c498;
+}
+#footer a{
+  color: #52c498;
+}
+#main{
+  background-color: #52c498;
+}
+#colimg img{
+  height: 40vh;
+}
+main p{
+  color: rgb(66, 4, 13);
+  font-size: 20px;
+}

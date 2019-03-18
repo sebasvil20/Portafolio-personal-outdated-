@@ -2,10 +2,17 @@
 html{
 scroll-behavior: smooth;
 }
+#header img{
+
+}
 #barnavigation{
     font-size: 17px;
     position: fixed;
 }
+#botonmenu{
+  background-color: rgb(121, 173, 140);
+}
+
 #barnavigation a:hover{
     color:white;
 }
@@ -20,6 +27,7 @@ scroll-behavior: smooth;
 #main{
   background-color: #52c498;
   height: 100vh;
+  margin-top: 3%;
 }
 #main p{
   font-size: 22px;

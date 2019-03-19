@@ -59,6 +59,15 @@ main p{
   box-shadow: 0px 0px 0px 0px;
 }
 
+#proyectos p{
+  font-size: 17px;
+}
+#proyectos img{
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
 
 #downarrow{
   transform: rotate(90deg);

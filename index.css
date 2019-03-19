@@ -92,6 +92,10 @@ hr:after {
  line-height: 24px;
  }
 
+ #enviarb{
+   width: 60%;
+ }
+
 #downarrow{
   transform: rotate(90deg);
   animation-name: animacion1;

@@ -1,115 +1,132 @@
-html{
-scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
-#header img{
-
+#header img {
 }
-#barnavigation{
-    font-size: 17px;
-    position: fixed;
+#barnavigation {
+  font-size: 17px;
+  position: fixed;
 }
-#botonmenu{
+#botonmenu {
   background-color: rgb(121, 173, 140);
 }
 
-#barnavigation a:hover{
-    color:white;
+#barnavigation a:hover {
+  color: white;
 }
 
-#footer{
+#footer {
   background-color: #2a130f;
   color: #52c498;
 }
-#footer a{
+#footer a {
   color: #52c498;
 }
-#main{
-  background-color: #52c498;
-  height: 100vh;
-  margin-top: 3%;
+#main {
+  background-color: #4ecdc4;
+  min-height: 100vh;
 }
-#main p{
+#main p {
   font-size: 22px;
 }
-#imagenavatar{
+#particles-js {
+  position: absolute !important;
+  height: 60vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#imagenavatar {
   margin: auto;
   display: block;
-  box-shadow: 0px 0px 56px 7px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 56px 7px rgba(0, 0, 0, 0.75);
 }
-#colimg img{
+#colimg img {
   height: 40vh;
 }
-main p{
+main p {
   color: rgb(66, 4, 13);
 }
 
-#certificaciones{
+#certificaciones {
   background-color: #21838a;
 }
 #certificaciones img {
-  max-width: 100%
+  max-width: 100%;
 }
 
-#certificaciones img:hover{
-  box-shadow: 0px 0px 42px 7px rgba(8,247,95,1);
+#certificaciones img:hover {
+  box-shadow: 0px 0px 42px 7px rgba(8, 247, 95, 1);
 }
 
-#footer img:hover{
+#footer img:hover {
   box-shadow: 0px 0px 0px 0px;
 }
 
-#proyectos p{
+#proyectos p {
   font-size: 17px;
 }
-#proyectos img{
+.inline-block {
+  display: inline-block;
+}
+.inline-block img {
+  width: 4rem;
+}
+#proyectos img {
   width: 100%;
   height: 100%;
   max-width: 100%;
   max-height: 100%;
 }
 
-
 hr {
   border: 0;
   height: 10px;
   margin-top: 20px;
-  background-color:rgb(255, 0, 0);
+  background-color: rgb(255, 0, 0);
   text-align: center;
 }
 hr:after {
-  content:"";
+  content: "";
   position: relative;
   top: -12px;
   display: inline-block;
   width: 36px;
   height: 24px;
- padding: 0;
- border: 2px solid red;
- border-radius: 24px;
- background: red;
- color: white;
- font-size: 12px;
- line-height: 24px;
- }
+  padding: 0;
+  border: 2px solid red;
+  border-radius: 24px;
+  background: red;
+  color: white;
+  font-size: 12px;
+  line-height: 24px;
+}
 
- #enviarb{
-   width: 60%;
- }
+#enviarb {
+  width: 60%;
+}
 
-
-#downarrow{
+#downarrow {
   transform: rotate(90deg);
   animation-name: animacion1;
   animation-duration: 2s;
-  animation-iteration-count: infinite ;
+  animation-iteration-count: infinite;
 }
 
-
-
 @keyframes animacion1 {
-  0%   {margin-top:0px;}
-  25%  {margin-top:20px;}
-  50%  {margin-top:0px;}
-  75%  {margin-top:20px;}
-  100% {margin-top:0px;}
+  0% {
+    margin-top: 0px;
+  }
+  25% {
+    margin-top: 20px;
+  }
+  50% {
+    margin-top: 0px;
+  }
+  75% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 0px;
+  }
 }

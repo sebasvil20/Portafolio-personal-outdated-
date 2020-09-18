@@ -1,266 +1,470 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="icos/icopagina.png" type="image/x-icon">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="icos/icopagina.png" type="image/x-icon" />
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <title>Sebastian Villegas</title>
   </head>
-  <body data-spy="scroll" data-target="#navbarSupportedContent" data-offset="80">
-      <header id="header" class="mb-4">
-        <nav id="barnavigation" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-          <section class="container">
-            <a class="navbar-brand" href="https://sebasvil20.github.io/">
-              <img src="imgs/logopersonal.png" alt=""> <b>Sebastian Villegas</b>
-            </a>
-            <button class="navbar-toggler text-center" type="button" id="botonmenu"  data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item ">
-                  <a class="nav-link" href="#main">Sobre mi</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#certificaciones">Certificaciones</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#proyectos">Proyectos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#contactame">Contáctame</a>
-                </li>
-              </ul>
-            </div>
-          </section>
-        </nav>
-      </header>
-
-      <main id="main">
+  <body
+    data-spy="scroll"
+    data-target="#navbarSupportedContent"
+    data-offset="80"
+  >
+    <header id="header" class="mb-4">
+      <nav
+        id="barnavigation"
+        class="navbar navbar-expand-md navbar-dark bg-dark fixed-top"
+      >
         <section class="container">
-          <section class="row">
-            <section id="colimg" class="col pt-md-4 pt-4">
-              <img id="imagenavatar" class="rounded-circle mt-2 mb-2 mt-4 center-block " src="imgs/img_avatar.png" alt="">
-            </section>
-          </section>
-          <section class="row">
-            <section class="col text-center font-weight-normal   pb-4 d-md-block pt-large-2">
-              <h1>Front-end developer</h1>
-              <p>
-                Amante de la programación web y de escritorio.
-              </p>
-              <p class="d-none d-sm-block">
-                Tengo estudios en media técnica y al rededor de 1 año estudiando virtualmente en diferentes plataformas como Platzi y Udemy.
-              </p>
-              <p class="d-none d-lg-block">
-                Tengo conocimientos en: JavaScript (Actual ECMAscript), Python, C, C++, C#, entre otros.
-              </p>
-              <a href="#certificaciones"><img id="downarrow" class="ml-4" src="imgs/downarrow.png" alt=""></a>
-            </section>
+          <a class="navbar-brand" href="https://sebasvil20.github.io/">
+            <img src="imgs/logopersonal.png" alt="" /> <b>Sebastian Villegas</b>
+          </a>
+          <button
+            class="navbar-toggler text-center"
+            type="button"
+            id="botonmenu"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse text-center"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#main">Sobre mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#certificaciones">Certificaciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactame">Contáctame</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </nav>
+    </header>
+    |||
+    <main id="main">
+      <section class="container">
+        <div id="particles-js"></div>
+        <section class="row">
+          <section id="colimg" class="col pt-md-4 pt-4">
+            <img
+              id="imagenavatar"
+              class="rounded-circle mt-2 mb-2 mt-4 center-block"
+              src="imgs/perfil_sebas2.jpg"
+              alt=""
+            />
           </section>
         </section>
-      </main>
-
-      <section id="certificaciones">
-        <section class="container">
-          <section class="row pt-4">
-            <section class="col text-center text-uppercase mt-2 mb-4">
-              <h2><b>Certificaciones</b></h2>
+        <section class="row">
+          <section
+            class="col text-center font-weight-normal pb-4 d-md-block pt-large-2"
+          >
+            <h1 style="font-weight: 700">Sebastian Villegas</h1>
+            <p class="d-none d-sm-block f">
+              Estudiante de Ingeniería Informática
+            </p>
+            <p>Amante de la programación web y de escritorio.</p>
+            <section class="d-lg-block">
+              <div id="linea-imagenes">
+                <div class="inline-block">
+                  <img src="icos/reactjs.png" />
+                </div>
+                <div class="inline-block">
+                  <img src="icos/nodejs.png" />
+                </div>
+                <div class="inline-block">
+                  <img src="icos/js96.ico" />
+                </div>
+                <div class="inline-block">
+                  <img src="icos/python96.ico" />
+                </div>
+                <div class="inline-block">
+                  <img src="icos/graphql.png" />
+                </div>
+                <div class="inline-block">
+                  <img src="icos/git1.png" />
+                </div>
+                <div class="inline-block">
+                  <img src="icos/github72.ico" />
+                </div>
+                <div class="inline-block">
+                  <img src="icos/css396.ico" />
+                </div>
+                <div class="inline-block">
+                  <img src="icos/html592.ico" />
+                </div>
+                <div class="inline-block">
+                  <img src="icos/mysql1.png" />
+                </div>
+              </div>
             </section>
+            <a
+              href="#certificaciones"
+              class=""
+              style="margin-top: 10%; padding-top: 10% !important"
+              ><img id="downarrow" class="ml-4" src="imgs/downarrow.png" alt=""
+            /></a>
+          </section>
+        </section>
+      </section>
+    </main>
+
+    <section id="certificaciones">
+      <section class="container">
+        <section class="row pt-4">
+          <section class="col text-center text-uppercase mt-2 mb-4">
+            <h2><b>Certificaciones</b></h2>
+          </section>
         </section>
         <section class="row">
           <section class="col-6 col-sm-6 col-lg-4 mb-4">
-            <a href="https://platzi.com/@Sebastian_Villegas_/curso/1331-bootstrap/diploma/detalle/" target="_blank">
-            <img src="Diplomas/bootstrap.png" alt="">
-          </a>
-          </section>
-          <section class="col-6 col-sm-6 col-lg-4 mb-4">
-            <a href="https://platzi.com/@Sebastian_Villegas_/curso/1350-html5-css3/diploma/detalle/" target="_blank">
-            <img src="Diplomas/webdevelopment.png" alt="">
+            <a
+              href="https://platzi.com/@Sebastian_Villegas_/curso/1331-bootstrap/diploma/detalle/"
+              target="_blank"
+            >
+              <img src="Diplomas/bootstrap.png" alt="" />
             </a>
           </section>
           <section class="col-6 col-sm-6 col-lg-4 mb-4">
-            <a href="https://platzi.com/@Sebastian_Villegas_/curso/1098-ingenieria/diploma/detalle/" target="_blank">
-            <img src="Diplomas/ingenieria.png" alt="">
+            <a
+              href="https://platzi.com/@Sebastian_Villegas_/curso/1350-html5-css3/diploma/detalle/"
+              target="_blank"
+            >
+              <img src="Diplomas/webdevelopment.png" alt="" />
             </a>
           </section>
           <section class="col-6 col-sm-6 col-lg-4 mb-4">
-            <a href="https://platzi.com/@Sebastian_Villegas_/curso/1276-terminal/diploma/detalle/" target="_blank">
-            <img src="Diplomas/terminal.png" alt="">
+            <a
+              href="https://platzi.com/@Sebastian_Villegas_/curso/1098-ingenieria/diploma/detalle/"
+              target="_blank"
+            >
+              <img src="Diplomas/ingenieria.png" alt="" />
             </a>
           </section>
           <section class="col-6 col-sm-6 col-lg-4 mb-4">
-            <a href="https://platzi.com/@Sebastian_Villegas_/curso/1189-algoritmos-2017/diploma/detalle/" target="_blank">
-            <img src="Diplomas/algoritmosC.png" alt="">
+            <a
+              href="https://platzi.com/@Sebastian_Villegas_/curso/1276-terminal/diploma/detalle/"
+              target="_blank"
+            >
+              <img src="Diplomas/terminal.png" alt="" />
             </a>
           </section>
           <section class="col-6 col-sm-6 col-lg-4 mb-4">
-            <a href="https://platzi.com/@Sebastian_Villegas_/curso/1081-seguridad-informatica-2017/diploma/detalle/" target="_blank">
-            <img src="Diplomas/seguridad.png" alt="">
+            <a
+              href="https://platzi.com/@Sebastian_Villegas_/curso/1189-algoritmos-2017/diploma/detalle/"
+              target="_blank"
+            >
+              <img src="Diplomas/algoritmosC.png" alt="" />
             </a>
           </section>
-          <section class="col-6 offset-3 col-sm-6 col-lg-4 mb-4 offset-lg-4 offset-md-3 offset-sm-3">
-            <a href="https://platzi.com/@Sebastian_Villegas_/curso/1104-python-2017/diploma/detalle/" target="_blank">
-            <img src="Diplomas/python.png" alt="">
+          <section class="col-6 col-sm-6 col-lg-4 mb-4">
+            <a
+              href="https://platzi.com/@Sebastian_Villegas_/curso/1081-seguridad-informatica-2017/diploma/detalle/"
+              target="_blank"
+            >
+              <img src="Diplomas/seguridad.png" alt="" />
             </a>
           </section>
-        </section>
+          <section class="col-6 col-sm-6 col-lg-4 mb-4">
+            <a
+              href="https://platzi.com/@Sebastian_Villegas_/curso/1104-python-2017/diploma/detalle/"
+              target="_blank"
+            >
+              <img src="Diplomas/python.png" alt="" />
+            </a>
+          </section>
+          <section class="col-6 col-sm-6 col-lg-4 mb-4">
+            <a
+              href="https://platzi.com/@Sebastian_Villegas_/ruta/39-blockchain-criptomonedas/diploma/detalle/"
+              target="_blank"
+            >
+              <img src="Diplomas/blockchain.png" alt="" />
+            </a>
+          </section>
+          <section class="col-6 col-sm-6 col-lg-4 mb-4">
+            <a
+              href="https://platzi.com/@Sebastian_Villegas_/ruta/39-blockchain-criptomonedas/diploma/detalle/"
+              target="_blank"
+            >
+              <img src="Diplomas/front-end.PNG" alt="" />
+            </a>
+          </section>
         </section>
       </section>
+    </section>
 
-      <section class="container text-center pt-2 pb-4 mt-4" id="proyectos">
-        <h1>PROYECTOS</h1>
-        <section class="row align-items-center pt-2 pb-2 card-project">
-          <section class="col-12 col-md-6  text-lg-right text-centert font-weight-normal">
-            <h2 class="mb-3">Ricodelicias - Café Panaderia</h2>
-            <p >
-            Pagina creada por peticion de un negocio de Colombia.<br>
+    <section class="container text-center pt-2 pb-4 mt-4" id="proyectos">
+      <h1>PROYECTOS</h1>
+      <section class="row align-items-center pt-2 pb-2 card-project">
+        <section
+          class="col-12 col-md-6 text-lg-right text-centert font-weight-normal"
+        >
+          <h2 class="mb-3">Ricodelicias - Café Panaderia</h2>
+          <p>
+            Pagina creada por peticion de un negocio de Colombia.<br />
             Se crea con Bootstrap3 completamente responsive
-            </p>
-            <small>Puedes dar click a la imagen para ir a la pagina</small>
-          </section>
-          <section class="col-12 col-md-6 pt-2 pb-2">
-            <a href="https://sebasvil20.github.io/Ricodelicias/" target="_blank">
-              <img src="imgs/panaderia.png" alt="">
-            </a>
-          </section>
+          </p>
+          <small>Puedes dar click a la imagen para ir a la pagina</small>
         </section>
-        <section class="row align-items-center pt-2 pb-2 card-project">
-          <section class="col-12 col-md-6 ">
-            <a href="https://sebasvil20.github.io/Platzi-Hawaii/" target="_blank">
-              <img src="imgs/hawaii.png" alt="">
-            </a>
-          </section>
-          <section class="col-12 col-md-6 pt-2 text-lg-left text-center font-weight-normal">
-            <h2 class="mb-3">Platzi Conf en Hawaii</h2>
-            <p >
-              Platzi conf llega por primera vez a hawaii! Un evento para compartir
-               con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet.
-            <br>
-              Esta pagina fue el proyecto final del curso de Bootstrap4 en platzi.
-            </p>
-            <small>Puedes dar click a la imagen para ir a la pagina</small>
-          </section>
+        <section class="col-12 col-md-6 pt-2 pb-2">
+          <a href="https://sebasvil20.github.io/Ricodelicias/" target="_blank">
+            <img src="imgs/panaderia.png" alt="" />
+          </a>
         </section>
-        <section class="row align-items-center pt-2 pb-2 card-project ">
-          <section class="col-12 col-md-6  text-lg-right text-centert font-weight-normal">
-            <h2 class="mb-3">Curso De Desarrollo Web Online</h2>
-            <p >
-            Pagina creada como proyecto final de el curso de desarrollo web online de Platzi.<br>
+      </section>
+      <section class="row align-items-center pt-2 pb-2 card-project">
+        <section class="col-12 col-md-6">
+          <a href="https://sebasvil20.github.io/Platzi-Hawaii/" target="_blank">
+            <img src="imgs/hawaii.png" alt="" />
+          </a>
+        </section>
+        <section
+          class="col-12 col-md-6 pt-2 text-lg-left text-center font-weight-normal"
+        >
+          <h2 class="mb-3">Platzi Conf en Hawaii</h2>
+          <p>
+            Platzi conf llega por primera vez a hawaii! Un evento para compartir
+            con nuestra comunidad el conocimiento y experiencia de los expertos
+            que están creando el futuro de Internet.
+            <br />
+            Esta pagina fue el proyecto final del curso de Bootstrap4 en platzi.
+          </p>
+          <small>Puedes dar click a la imagen para ir a la pagina</small>
+        </section>
+      </section>
+      <section class="row align-items-center pt-2 pb-2 card-project">
+        <section
+          class="col-12 col-md-6 text-lg-right text-centert font-weight-normal"
+        >
+          <h2 class="mb-3">Curso De Desarrollo Web Online</h2>
+          <p>
+            Pagina creada como proyecto final de el curso de desarrollo web
+            online de Platzi.<br />
             Se desarrolla sin Framewoks
-
-            </p>
-            <small>Puedes dar click a la imagen para ir a la pagina</small>
-          </section>
-          <section class="col-12 col-md-6 pt-2 pb-2">
-            <a href="https://sebasvil20.github.io/WebDevelopmentProject/index.html" target="_blank">
-              <img src="imgs/proyecto3.png" id="imagenproyecto3" alt="">
-            </a>
-          </section>
+          </p>
+          <small>Puedes dar click a la imagen para ir a la pagina</small>
         </section>
-        <section class="row align-items-center pt-2 pb-2 card-project">
-          <section class="col-12 col-md-6 ">
-            <a href="https://sebasvil20.github.io/CVSebastianVillegas/" target="_blank">
-              <img src="imgs/cv.PNG" alt="">
-            </a>
-          </section>
-          <section class="col-12 col-md-6 pt-2 text-lg-left text-center font-weight-normal">
-            <h2 class="mb-3">Sebastian Villegas-Corriculum Vitae</h2>
-            <p >
-            Pagina creada con el proposito de exponer una idea de Curriculum Vitae<br>
+        <section class="col-12 col-md-6 pt-2 pb-2">
+          <a
+            href="https://sebasvil20.github.io/WebDevelopmentProject/index.html"
+            target="_blank"
+          >
+            <img src="imgs/proyecto3.png" id="imagenproyecto3" alt="" />
+          </a>
+        </section>
+      </section>
+      <section class="row align-items-center pt-2 pb-2 card-project">
+        <section class="col-12 col-md-6">
+          <a
+            href="https://sebasvil20.github.io/CVSebastianVillegas/"
+            target="_blank"
+          >
+            <img src="imgs/cv.PNG" alt="" />
+          </a>
+        </section>
+        <section
+          class="col-12 col-md-6 pt-2 text-lg-left text-center font-weight-normal"
+        >
+          <h2 class="mb-3">Sebastian Villegas-Corriculum Vitae</h2>
+          <p>
+            Pagina creada con el proposito de exponer una idea de Curriculum
+            Vitae<br />
             Se crea con Bootstrap4 completamente responsive
-            </p>
-            <small>Puedes dar click a la imagen para ir a la pagina</small>
-          </section>
+          </p>
+          <small>Puedes dar click a la imagen para ir a la pagina</small>
         </section>
-
       </section>
-
-
-
-
-
-      <section class="container text-center mt-4 pt-4 pb-4" id="contactame">
-        <hr>
-        <section class="row pt-4 text-center">
-          <section class="col">
-            <h1>CONTÁCTAME</h1>
-          </section>
+      <section class="row align-items-center pt-2 pb-2 card-project">
+        <section
+          class="col-12 col-md-6 text-lg-right text-centert font-weight-normal"
+        >
+          <h2 class="mb-3">DaVinci DaGame</h2>
+          <p>
+            Juego ganador del concurso de desarrollo de videojuegos en la
+            Escuela de Ingeniería de Antioquia.<br />
+            Se en Unity Con C#
+          </p>
+          <small>Puedes dar click a la imagen para ir a la pagina</small>
         </section>
-        <section class="row pt-4 text-center">
-          <section class="col-6 col-sm-4 text-center">
-            <img src="icos/platzi2.png" alt="">
-            <p >
-              <small>
-                <a href="https://platzi.com/@Sebastian_Villegas_/" target="_blank">@Sebastian_Villegas_</a>
-              </small>
-            </p>
-          </section>
-          <section class="col-6 col-sm-4 text-center">
-            <img src="icos/whatsapp2.png" alt="">
-            <p>
-              <small>
-                +57 305-319-0789
-              </small>
-            </p>
-          </section>
-          <section class="col-6 col-sm-4 offset-sm-0 offset-3 text-center">
-            <img src="icos/correo.png" alt="">
-            <p>
-              <small>
-                sebasvil20@gmail.com
-              </small>
-            </p>
-          </section>
+        <section class="col-12 col-md-6 pt-2 pb-2">
+          <a
+            href="https://github.com/sebasvil20/Da-Vinci-Da-Game"
+            target="_blank"
+          >
+            <img src="imgs/davinci_dagame.png" id="imagenproyecto3" alt="" />
+          </a>
         </section>
-        <h2 class="mt-2 mb-4">También puedes contactarme llenando el siguiente formulario</h2>
-        <form>
-          <div class="form-row">
-            <div class="col-md-4 offset-md-2 col-10 offset-1" >
-              <input type="text" class="form-control" placeholder="Nombres y Apellidos">
-            </div>
-            <div class="col-md-4 offset-md-0 col-10 offset-1">
-              <input type="text" class="form-control" placeholder="Correo">
-            </div>
-            <div class="col-8 offset-2 mt-4 form-group ">
-              <textarea name="text" class="form-control form-control-lg" placeholder="Mensaje"></textarea>
-            </div>
-            <div class="col-12 mt-4 ">
-              <button type="submit" id="enviarb" class="btn btn-outline-primary">Enviar</button>
-            </div>
+      </section>
+      <section class="row align-items-center pt-2 pb-2 card-project">
+        <section class="col-12 col-md-6">
+          <a
+            href="https://github.com/sebasvil20/cotizador-criptomonedas"
+            target="_blank"
+          >
+            <img src="imgs/cotizador_criptos.PNG" alt="" />
+          </a>
+        </section>
+        <section
+          class="col-12 col-md-6 pt-2 text-lg-left text-center font-weight-normal"
+        >
+          <h2 class="mb-3">Cotizador de Criptomonedas</h2>
+          <p>
+            Consumiendo una API es capaz de traerte el valor exacto de la
+            criptomoneda deseada y convertirla a tu moneda local.<br />
+            Se crea con React Js + React Hooks
+          </p>
+          <small>Puedes dar click a la imagen para ir a la pagina</small>
+        </section>
+      </section>
+      <h2 class="mt-5">
+        Puedes visitar mi GitHub para conocer la totalidad de mis proyectos
+      </h2>
+      <a
+        href="https://github.com/sebasvil20"
+        target="_blank"
+        style="text-decoration: none; color: black"
+      >
+        <img src="icos/github72.ico" style="width: 3rem" alt="" />
+        <p>@Sebasvil20</p></a
+      >
+    </section>
+
+    <section class="container text-center mt-4 pt-4 pb-4" id="contactame">
+      <hr />
+      <section class="row pt-4 text-center">
+        <section class="col">
+          <h1>CONTÁCTAME</h1>
+        </section>
+      </section>
+      <section class="row pt-4 text-center">
+        <section class="col-6 col-sm-4 text-center">
+          <img src="icos/platzi2.png" alt="" />
+          <p>
+            <small>
+              <a href="https://platzi.com/@Sebastian_Villegas_/" target="_blank"
+                >@Sebastian_Villegas_</a
+              >
+            </small>
+          </p>
+        </section>
+        <section class="col-6 col-sm-4 text-center">
+          <img src="icos/whatsapp2.png" alt="" />
+          <p>
+            <small> +57 305-319-0789 </small>
+          </p>
+        </section>
+        <section class="col-6 col-sm-4 offset-sm-0 offset-3 text-center">
+          <img src="icos/correo.png" alt="" />
+          <p>
+            <small> sebasvil20@gmail.com </small>
+          </p>
+        </section>
+      </section>
+      <h2 class="mt-2 mb-4">
+        También puedes contactarme llenando el siguiente formulario
+      </h2>
+      <form>
+        <div class="form-row">
+          <div class="col-md-4 offset-md-2 col-10 offset-1">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Nombres y Apellidos"
+            />
           </div>
-        </form>
-      </section>
+          <div class="col-md-4 offset-md-0 col-10 offset-1">
+            <input type="text" class="form-control" placeholder="Correo" />
+          </div>
+          <div class="col-8 offset-2 mt-4 form-group">
+            <textarea
+              name="text"
+              class="form-control form-control-lg"
+              placeholder="Mensaje"
+            ></textarea>
+          </div>
+          <div class="col-12 mt-4">
+            <button type="submit" id="enviarb" class="btn btn-outline-primary">
+              Enviar
+            </button>
+          </div>
+        </div>
+      </form>
+    </section>
 
-
-      <footer id="footer" class="pb-4 pt-4">
-        <section class="container">
-          <section class="row text-center">
-            <section class="col-12 col-lg col-xl pt-2 pb-4">
-              <p>
-                Redes Sociales
-              </p>
-              <a href="https://www.facebook.com/Hekizde" target="_blank"> <img src="icos/face.ico" alt="" ></a>
-              <a href="https://www.instagram.com/sebas_villegas20/" target="_blank"> <img src="icos/insta.ico" alt=""></a>
-              <a href="https://api.whatsapp.com/send?phone=573053190789" target="_blank"> <img src="icos/whatsapp.ico" alt="" ></a>
-            </section>
-            <section class="col-12 col-lg col-xl text-lg-right text-center">
-              La inteligencia consiste no solo en el conocimiento, sino también en la destreza de aplicar los conocimientos en la práctica.
-              <small class="ml-1">-Aristoteles</small>
-            </section>
+    <footer id="footer" class="pb-4 pt-4">
+      <section class="container">
+        <section class="row text-center">
+          <section class="col-12 col-lg col-xl pt-2 pb-4">
+            <p>Redes Sociales</p>
+            <a href="https://www.facebook.com/Hekizde" target="_blank">
+              <img src="icos/face.ico" alt=""
+            /></a>
+            <a
+              href="https://www.instagram.com/sebas_villegas20/"
+              target="_blank"
+            >
+              <img src="icos/insta.ico" alt=""
+            /></a>
+            <a
+              href="https://api.whatsapp.com/send?phone=573053190789"
+              target="_blank"
+            >
+              <img src="icos/whatsapp.ico" alt=""
+            /></a>
+          </section>
+          <section class="col-12 col-lg col-xl text-lg-right text-center">
+            La inteligencia consiste no solo en el conocimiento, sino también en
+            la destreza de aplicar los conocimientos en la práctica.
+            <small class="ml-1">-Aristoteles</small>
           </section>
         </section>
-      </footer>
+      </section>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
